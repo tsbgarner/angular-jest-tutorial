@@ -22,5 +22,5 @@ describe('NameService', () => {
     let newName = 'Goat';
     service.setName(newName);
     expect(service.name).toBe(newName);
-  })
+  });
 });
